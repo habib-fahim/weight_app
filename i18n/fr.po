@@ -1,0 +1,114 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* bi_weight_in_so_po
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-05 13:46+0000\n"
+"PO-Revision-Date: 2023-12-05 13:46+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: bi_weight_in_so_po
+#: model_terms:ir.ui.view,arch_db:bi_weight_in_so_po.weight_purchase_order_report
+#: model_terms:ir.ui.view,arch_db:bi_weight_in_so_po.weight_report_delivery_document
+#: model_terms:ir.ui.view,arch_db:bi_weight_in_so_po.weight_report_picking
+#: model_terms:ir.ui.view,arch_db:bi_weight_in_so_po.weight_report_purchasequotation_document
+#: model_terms:ir.ui.view,arch_db:bi_weight_in_so_po.weight_report_saleorder_document
+msgid "<strong>Total Weight (kg)</strong>"
+msgstr "<strong>Poids total (kg)</strong>"
+
+#. module: bi_weight_in_so_po
+#: model_terms:ir.ui.view,arch_db:bi_weight_in_so_po.weight_purchase_order_report
+#: model_terms:ir.ui.view,arch_db:bi_weight_in_so_po.weight_report_delivery_document
+#: model_terms:ir.ui.view,arch_db:bi_weight_in_so_po.weight_report_picking
+msgid "<strong>Weight(kg)</strong>"
+msgstr "<strong>Poids (kg)</strong>"
+
+#. module: bi_weight_in_so_po
+#: model:ir.model,name:bi_weight_in_so_po.model_account_move
+msgid "Journal Entry"
+msgstr "Entrée de journal"
+
+#. module: bi_weight_in_so_po
+#: model:ir.model,name:bi_weight_in_so_po.model_account_move_line
+msgid "Journal Item"
+msgstr "Article de journal"
+
+#. module: bi_weight_in_so_po
+#: model:ir.model,name:bi_weight_in_so_po.model_purchase_order
+msgid "Purchase Order"
+msgstr "Bon de commande"
+
+#. module: bi_weight_in_so_po
+#: model:ir.model,name:bi_weight_in_so_po.model_purchase_order_line
+msgid "Purchase Order Line"
+msgstr "Ligne de bon de commande"
+
+#. module: bi_weight_in_so_po
+#: model:ir.model,name:bi_weight_in_so_po.model_sale_order
+msgid "Sales Order"
+msgstr "Commande client"
+
+#. module: bi_weight_in_so_po
+#: model:ir.model,name:bi_weight_in_so_po.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Ligne de commande client"
+
+#. module: bi_weight_in_so_po
+#: model:ir.model,name:bi_weight_in_so_po.model_stock_move
+msgid "Stock Move"
+msgstr "Mouvement de stock"
+
+#. module: bi_weight_in_so_po
+#: model_terms:ir.ui.view,arch_db:bi_weight_in_so_po.account_move_weight_view_inherit
+#: model_terms:ir.ui.view,arch_db:bi_weight_in_so_po.purchase_order_weight_view_inherit
+#: model_terms:ir.ui.view,arch_db:bi_weight_in_so_po.sale_order_weight_view_inherit
+#: model_terms:ir.ui.view,arch_db:bi_weight_in_so_po.stock_picking_weight_view_inherit
+msgid "Total Weight"
+msgstr "Poids total"
+
+#. module: bi_weight_in_so_po
+#: model:ir.model,name:bi_weight_in_so_po.model_stock_picking
+msgid "Transfer"
+msgstr "Transfert"
+
+#. module: bi_weight_in_so_po
+#: model:ir.model.fields,field_description:bi_weight_in_so_po.field_account_bank_statement_line__total_weight
+#: model:ir.model.fields,field_description:bi_weight_in_so_po.field_account_move__total_weight
+#: model:ir.model.fields,field_description:bi_weight_in_so_po.field_account_payment__total_weight
+#: model:ir.model.fields,field_description:bi_weight_in_so_po.field_purchase_order__total_weight
+#: model:ir.model.fields,field_description:bi_weight_in_so_po.field_sale_order__total_weight
+#: model:ir.model.fields,field_description:bi_weight_in_so_po.field_stock_picking__total_weight
+msgid "Weight"
+msgstr "Poids"
+
+#. module: bi_weight_in_so_po
+#: model:ir.model.fields,field_description:bi_weight_in_so_po.field_account_move_line__weight
+#: model:ir.model.fields,field_description:bi_weight_in_so_po.field_purchase_order_line__weight
+#: model:ir.model.fields,field_description:bi_weight_in_so_po.field_sale_order_line__weight
+#: model:ir.model.fields,field_description:bi_weight_in_so_po.field_stock_move__weight
+#: model_terms:ir.ui.view,arch_db:bi_weight_in_so_po.weight_report_purchasequotation_document
+#: model_terms:ir.ui.view,arch_db:bi_weight_in_so_po.weight_report_saleorder_document
+msgid "Weight(kg)"
+msgstr "Poids (kg)"
+
+#. module: bi_weight_in_so_po
+#: model:ir.model.fields,field_description:bi_weight_in_so_po.field_account_bank_statement_line__weight_unit
+#: model:ir.model.fields,field_description:bi_weight_in_so_po.field_account_move__weight_unit
+#: model:ir.model.fields,field_description:bi_weight_in_so_po.field_account_payment__weight_unit
+#: model:ir.model.fields,field_description:bi_weight_in_so_po.field_purchase_order__weight_unit
+#: model:ir.model.fields,field_description:bi_weight_in_so_po.field_sale_order__weight_unit
+#: model:ir.model.fields,field_description:bi_weight_in_so_po.field_stock_picking__weight_unit
+#: model_terms:ir.ui.view,arch_db:bi_weight_in_so_po.account_move_weight_view_inherit
+#: model_terms:ir.ui.view,arch_db:bi_weight_in_so_po.purchase_order_weight_view_inherit
+#: model_terms:ir.ui.view,arch_db:bi_weight_in_so_po.sale_order_weight_view_inherit
+#: model_terms:ir.ui.view,arch_db:bi_weight_in_so_po.stock_picking_weight_view_inherit
+msgid "kg"
+msgstr "kg"

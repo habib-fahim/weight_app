@@ -144,7 +144,7 @@
 
     <template id="weight_stock_report_delivery_has_serial_move_line" inherit_id="stock.stock_report_delivery_has_serial_move_line">
         <xpath expr="//td[2]" position="after">
-            <td><span t-field="move_line.weight"/></td>
+            <td><span t-field="move_line.move_id.weight"/></td>
         </xpath>
     </template>
 
